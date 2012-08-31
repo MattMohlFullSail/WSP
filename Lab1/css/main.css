@@ -1,0 +1,14 @@
+	body {
+		width: 960px;
+		margin: 0 auto;
+		font-family: Calibri, Arial, sans-serif;
+		background-image: -moz-linear-gradient(#edced0, #bde0c1);
+	}
+
+	h1 {
+		color: #8fb357;
+	}
+
+	h2 {
+		color: #a6464a;
+	}
