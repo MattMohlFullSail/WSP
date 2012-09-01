@@ -4,6 +4,10 @@
 		font-family: Calibri, Helvetica, sans-serif;
 	}
 
+	#page-wrapper {
+		background-color: red;
+	}
+
 	#logo {
 		height: 119px;
 		width: 400px;
@@ -211,7 +215,7 @@
 
 	/******* Media Queries *******/
 
-	@media screen and (max-width: 320px) {
+	@media screen and (max-width: 350px) {
 		body, html {
 			width: 100%;
 		}
