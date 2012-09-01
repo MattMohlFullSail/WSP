@@ -215,7 +215,7 @@
 
 	/******* Media Queries *******/
 
-	@media screen and (max-width: 350px) {
+	@media screen and (max-width: 320px) {
 		body, html {
 			width: 100%;
 		}
