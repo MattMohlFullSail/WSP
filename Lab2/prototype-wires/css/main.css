@@ -226,6 +226,22 @@
 			float: none;
 		}
 
+		nav a {
+			display: block;
+			border: none;
+			padding: 2px 0;
+			margin: 2px 0;
+			background-color: #ddd;
+		}
+
+		nav a:hover {
+			background-color: #ccc;
+		}
+
+		nav a:active {
+			background-color: #bbb;
+		}
+
 		nav ul {
 			padding: 10px 0 0 0;
 		}
