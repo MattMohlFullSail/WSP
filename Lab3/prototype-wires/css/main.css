@@ -1,8 +1,10 @@
 	
 	body {
 		width: 960px;
-		margin: 10px auto;
+		margin: 0 auto;
 		font-family: Calibri, Helvetica, sans-serif;
+		color: #fff;
+		background-image: url('../img/dark_wall.png');
 	}
 
 	#page-wrapper {
@@ -12,7 +14,7 @@
 	#logo {
 		height: 119px;
 		width: 400px;
-		border: 1px dotted #000;
+		border: 1px dotted #fff;
 		margin: 0 auto;
 	}
 
@@ -29,7 +31,7 @@
 
 	footer {
 		clear: left;
-		border-top: 2px solid #000;
+		border-top: 2px solid #fff;
 	}
 
 	footer p {
@@ -57,9 +59,9 @@
 	}
 
 	a {
-		color: #000;
+		color: #fff;
 		text-decoration: none;
-		border-bottom: 1px solid #000;
+		border-bottom: 1px solid #fff;
 	}
 
 	/******* Moto X and Boating pages specific *******/
@@ -73,7 +75,7 @@
 	.template-thumbnail {
 		width: 31%;
 		height: 250px;
-		border: 1px dotted #000;
+		border: 1px dotted #fff;
 		float: left;
 		margin: 0 1%;
 	}
@@ -88,7 +90,7 @@
 	.brand-division {
 		margin-bottom: 50px;
 		height: 350px;
-		border-bottom: 1px solid #000;
+		border-bottom: 1px solid #fff;
 	}
 
 	.brand-division h2 {
@@ -113,9 +115,8 @@
 	#cta {
 		position: relative;
 		clear: left;
-		width: 100%;
 		height: 400px;
-		border: 1px dotted #000;
+		border: 1px dotted #fff;
 	}
 
 	#browse-label {
@@ -134,7 +135,7 @@
 		margin: 0 auto;
 		width: 70%;
 		height: 150px;
-		border: 1px dotted #000;
+		border: 1px dotted #fff;
 	}
 
 	.icon a {

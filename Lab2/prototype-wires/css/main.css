@@ -1,7 +1,7 @@
 	
 	body {
 		width: 960px;
-		margin: 10px auto;
+		margin: 0 auto;
 		font-family: Calibri, Helvetica, sans-serif;
 	}
 
@@ -113,9 +113,10 @@
 	#cta {
 		position: relative;
 		clear: left;
-		width: 100%;
+		width: 958px;
 		height: 400px;
 		border: 1px dotted #000;
+		overflow: hidden;
 	}
 
 	#browse-label {
