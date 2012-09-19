@@ -296,6 +296,8 @@
 
 		background-image: -moz-linear-gradient(#daa65a, #d99d47);
 		background-image: -webkit-linear-gradient(#daa65a, #d99d47);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#daa65a', endColorstr='#d99d47')";
+
 		color: #fff;
 		font-size: 14px;
 	}
@@ -303,6 +305,8 @@
 	.submit-btn:active {
 		background-image: -moz-linear-gradient(#d99d47, #daa65a);
 		background-image: -moz-linear-gradient(#d99d47, #daa65a);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#d99d47', endColorstr='#daa65a')";
+
 	}
 
 	label {
