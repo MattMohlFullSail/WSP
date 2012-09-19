@@ -9,7 +9,7 @@
 
 	*/
 
-	div, h1, h2, img {
+	div, h1, h2, img, #cta {
 		border-radius: 4px;
 	}
 
@@ -59,33 +59,43 @@
 
 	nav ul li {
 		list-style-type: none;
-		display: inline-block;
+		display: block;
+		float: left;
+		text-align: center;
+		width: 158px;
+		margin: 0 1px;
+		padding: 0;
 	}
 
 	nav ul li a {/*
 		float: left;*/
-		margin: 0 10px;
+		display: block;
+		border: none;
+		background-color: #4d70ca;
+		padding: 5px 0;
 	}
 
 	nav ul {
 		text-align: center;
 		margin: 0;
-		padding: 15px 0 0 0;
+		padding: 0 0 0 0;
 	}
 
 	nav {
 		width: 100%;
+		height: ;
+		margin-bottom: 30px;
+		overflow: hidden;
 	}
 
 	a {
 		color: #fff;
-		text-decoration: none;
 		border-bottom: 1px solid #fff;
+		text-decoration: none;
 	}
 
 	.active {
 		color: #d99d47;
-		border-bottom: 1px solid #d99d47;
 	}
 
 	/******* Home page specific *******/
@@ -105,11 +115,15 @@
 		border: none;
 		border-radius: 5px;
 		background-image: -moz-linear-gradient(#6785d2, #4d70ca);
+		background-image: -webkit-linear-gradient(#6785d2, #4d70ca);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#6785d2', endColorstr='#4d70ca')";
 		padding: 20px 40px;
 	}
 
 	#cta a:active {
 		background-image: -moz-linear-gradient(#4d70ca, #6785d2);
+		background-image: -webkit-linear-gradient(#4d70ca, #6785d2);
+		-ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr='#4d70ca', endColorstr='#6785d2')";
 	}
 
 	#cta {
@@ -281,8 +295,14 @@
 		border-radius: 5px;
 
 		background-image: -moz-linear-gradient(#daa65a, #d99d47);
+		background-image: -webkit-linear-gradient(#daa65a, #d99d47);
 		color: #fff;
 		font-size: 14px;
+	}
+
+	.submit-btn:active {
+		background-image: -moz-linear-gradient(#d99d47, #daa65a);
+		background-image: -moz-linear-gradient(#d99d47, #daa65a);
 	}
 
 	label {
@@ -493,6 +513,7 @@
 			display: block;
 			float: none;
 			margin-bottom: 2px;
+			width: 100%;
 		}
 
 		nav a {
@@ -735,7 +756,7 @@
 	}
 
 
-	@media screen and (min-width: 768px) and (max-width: 769px) {
+	@media screen and (min-width: 767px) and (max-width: 769px) {
 
 		body, html {
 			width: 100%;
@@ -749,6 +770,7 @@
 			display: block;
 			float: none;
 			margin-bottom: 2px;
+			width: 100%;
 		}
 
 		nav a {
