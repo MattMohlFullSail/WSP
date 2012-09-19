@@ -13,6 +13,11 @@
 		border-radius: 4px;
 	}
 
+	img {
+		outline: none;
+		border: none;
+	}
+
 	body {
 		width: 960px;
 		margin: 0 auto;
