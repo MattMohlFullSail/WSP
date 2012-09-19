@@ -1,0 +1,20 @@
+	body {
+	 	width: 960px;
+	 	margin: 0 auto;
+	 	font-family: Calibri, "Helvetica Nueue", sans-serif;
+	 	background-image: url('../img/dark_wall.png');
+	 	color: #fff;
+	}
+
+	h1 {
+		color: #4d70ca;
+	}
+
+	a {
+		text-decoration: none;
+		color: #d99d47;
+	}
+
+	a:hover {
+		border-bottom: 1px solid #d99d47;
+	}
